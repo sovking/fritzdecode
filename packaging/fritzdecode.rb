@@ -1,7 +1,7 @@
 class Fritzdecode < Formula
   desc "Tools for reading, verifying, decrypting, and manipulating AVM FritzBox config exports"
   homepage "https://github.com/sovking/fritzdecode"
-  url "https://github.com/sovking/fritzdecode/archive/refs/tags/v0.4.0.tar.gz"
+  url "https://github.com/sovking/fritzdecode/archive/refs/tags/v0.4.1.tar.gz"
   sha256 "SKIP"
   license "AGPL-3.0-or-later"
   head "https://github.com/sovking/fritzdecode.git", branch: "main"

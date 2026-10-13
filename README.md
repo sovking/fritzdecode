@@ -21,8 +21,9 @@ A powerful, high-performance CLI tool and Rust library for inspecting, verifying
 ## Supported Platforms
 
 `fritzdecode` is cross-platform and compiles natively on:
-- **Linux** (`x86_64`, `aarch64` / ARM, including Raspberry Pi)
-- **macOS** (`Apple Silicon` / `M1/M2/M3`, and `Intel x86_64`)
+- **Linux** (`x86_64`, `aarch64` / ARM, including Raspberry Pi, and Musl)
+- **FreeBSD** (`x86_64` and `aarch64` / ARM64, compatible with FreeBSD 14 / 15, OPNsense, pfSense)
+- **macOS** (`Apple Silicon` / `M1/M2/M3/M4`, and `Intel x86_64`)
 - **Windows** (`x86_64`)
 
 ---

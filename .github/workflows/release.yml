@@ -42,6 +42,16 @@ jobs:
             os: windows-latest
             bin_name: fritzdecode.exe
             archive_ext: zip
+          - target: x86_64-unknown-freebsd
+            os: ubuntu-latest
+            bin_name: fritzdecode
+            archive_ext: tar.gz
+            use_cross: true
+          - target: aarch64-unknown-freebsd
+            os: ubuntu-latest
+            bin_name: fritzdecode
+            archive_ext: tar.gz
+            use_cross: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4

@@ -1,6 +1,6 @@
 # Maintainer: sovking <sovking@gmail.com>
 pkgname=fritzdecode
-pkgver=0.4.0
+pkgver=0.4.1
 pkgrel=1
 pkgdesc="Tools for inspecting, decrypting, and manipulating AVM FritzBox config file exports"
 arch=('x86_64' 'aarch64')

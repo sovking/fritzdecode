@@ -1,6 +1,6 @@
 [package]
 name = "fritzdecode"
-version = "0.4.0"
+version = "0.4.1"
 description = "Tools for working with AVM FritzBox config file exports"
 edition = "2021"
 readme = "README.md"
