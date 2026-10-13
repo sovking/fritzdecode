@@ -1,0 +1,26 @@
+[package]
+name = "fritzdecode-fuzz"
+version = "0.0.0"
+publish = false
+edition = "2021"
+
+[package.metadata]
+cargo-fuzz = true
+
+[dependencies]
+libfuzzer-sys = "0.4"
+
+[dependencies.fritzdecode]
+path = ".."
+
+[[bin]]
+name = "fuzz_avm_cfg"
+path = "fuzz_targets/fuzz_avm_cfg.rs"
+test = false
+doc = false
+
+[[bin]]
+name = "fuzz_decode_secret"
+path = "fuzz_targets/fuzz_decode_secret.rs"
+test = false
+doc = false

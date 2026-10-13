@@ -1,0 +1,11 @@
+/target
+/.vscode
+*.export
+*.json
+!manifest.json
+*_unpacked/
+*.tar.gz
+*.zip
+*.sha256
+credentials.yaml
+credentials.txt
